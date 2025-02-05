@@ -31,6 +31,25 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 
 ## Deploy on Vercel
 
+## Deploy on GitHub
+To share this project, ensure that the `package.json` file is set to `"private": false`. You can then share the project by:
+
+1. **Initialize a Git Repository**: If you haven't already, run `git init` to initialize a new Git repository.
+2. **Add a Remote Repository**: Use `git remote add origin <repository-url>` to add your GitHub repository as a remote.
+3. **Add Changes**: Stage your changes with `git add .`.
+4. **Commit Changes**: Commit your changes with `git commit -m "Initial commit"`.
+5. **Push to GitHub**: Finally, push your changes to GitHub using `git push -u origin main` (or `master` depending on your default branch).
+
+
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+## Sharing the Project
+
+To share this project, ensure that the `package.json` file is set to `"private": false`. You can then share the project by:
+
+1. **Cloning the Repository**: Use `git clone <repository-url>` to clone the project.
+2. **Installing Dependencies**: Run `npm install` to install all necessary dependencies.
+3. **Running the Project**: Use `npm run dev` to start the development server.
+4. **Deploying**: Follow the instructions in the "Deploy on Vercel" section above for deployment options.
